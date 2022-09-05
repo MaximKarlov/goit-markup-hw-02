@@ -100,7 +100,6 @@ main h3 {
 
 .footbox {
   background-color: var(--foot-box-color);
-  height: 252px;
 }
 .footaddr {
   color: var(--text-white);
