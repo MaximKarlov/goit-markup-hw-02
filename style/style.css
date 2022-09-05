@@ -1,0 +1,9 @@
+.main {
+    display: flexbox;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: rgba(33, 150, 243, 1);
+}
