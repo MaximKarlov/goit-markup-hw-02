@@ -1,9 +1,112 @@
-.main {
-    display: flexbox;
-    width: 1600px;
-    margin: 0 auto;
+:root {
+  --text-white: rgba(255, 255, 255, 1);
+  --logo-black: rgba(0, 0, 0, 1);
+  --text-color: rgba(33, 33, 33, 1);
+  --foot-box-color: rgba(47, 48, 58, 1);
+  --active-color: rgba(33, 150, 243, 1);
+  --contacts-color: rgba(117, 117, 117, 1);
+  --buttons-color: rgba(245, 244, 250, 1);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+/* .visual-hidden {
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 30px;
+  width: 1px;
+} */
+.navig {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .logo {
-    color: rgba(33, 150, 243, 1);
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.19;
+  letter-spacing: 0.03em;
+  color: var(--active-color);
+}
+.logo-header {
+  color: var(--logo-black);
+}
+.logo-footer {
+  color: var(--text-white);
+}
+
+.list {
+  list-style: none;
+}
+.contacts {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--contacts-color);
+}
+.list-a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.contacts:hover,
+.contacts:focus,
+.list-a:hover,
+.list-a:focus {
+  color: var(--active-color);
+}
+
+.but {
+  cursor: pointer;
+  background-color: var(--buttons-color);
+  color: var(--text-color);
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.but:hover,
+.but:focus {
+  background-color: var(--active-color);
+  color: var(--text-white);
+}
+/* .grid-image {
+  display: inline;
+  width: auto;
+} */
+main p {
+  color: var(--contacts-color);
+}
+main h3 {
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.footbox {
+  background-color: var(--foot-box-color);
+  height: 252px;
+}
+.footaddr {
+  color: var(--text-white);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
