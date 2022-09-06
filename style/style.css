@@ -92,6 +92,9 @@ body {
   letter-spacing: 0.06em;
   border: none;
 }
+.but-list {
+  align-items: center;
+}
 
 .but {
   cursor: pointer;
@@ -114,6 +117,8 @@ body {
 }
 .grid {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .title-p {
   color: var(--contacts-color);
