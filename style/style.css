@@ -84,6 +84,7 @@ body {
 .but-order {
   cursor: pointer;
   font-family: inherit;
+  align-items: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -118,7 +119,7 @@ body {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 10px;
 }
 .title-p {
   color: var(--contacts-color);
