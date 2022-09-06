@@ -112,10 +112,9 @@ body {
   background-color: var(--active-color);
   color: var(--text-white);
 }
-/* .grid-image {
-  display: inline;
-  width: auto;
-} */
+.grid {
+  display: flex;
+}
 .title-p {
   color: var(--contacts-color);
 }
