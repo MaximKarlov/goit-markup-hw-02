@@ -13,9 +13,7 @@ body {
   font-size: 14px;
   color: var(--text-color);
 }
-.active {
-  color: var(--active-color);
-}
+
 .visual-hidden {
   overflow: hidden;
   position: absolute;
@@ -60,6 +58,10 @@ body {
 }
 .list-a {
   text-decoration: none;
+  color: var(--text-color);
+}
+.active {
+  color: var(--active-color);
 }
 
 .contacts:hover,
@@ -123,6 +125,11 @@ body {
 }
 .title-p {
   color: var(--contacts-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
 }
 .title-h2 {
   text-transform: capitalize;
